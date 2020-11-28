@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Listener.Listener" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<!-- <class name="Tests.HomePageTestCase"> 
+			<methods> 
+			<include name="Verify_TopPanel_name"></include> 
+			</methods> 
+			</class> 
+				
+			<class name="Tests.CommonFunctionalityTestCase"> 
+			<methods> 
+			<include name = "SGL_NATMO_COMMON_19"></include> 
+			</methods> 
+			</class> -->
+
+			<!-- <class name="Tests.LoginPageTestCase"> 
+			<methods> <include name = "SGL_NATMO_Login_02"></include> 
+			<include name = "SGL_NATMO_Login_08"></include> 
+			<include name = "SGL_NATMO_Login_09"></include> </methods> </class> -->
+
+			<!-- <class name="Tests.ChangePasswordTestCase"> <methods> <include name 
+				= "CGL_NATMO_ChangePassword_01"></include> </methods> </class> -->
+
+			<!-- <class name="Tests.ForgotPasswordTestCase"> <methods> <include name 
+				= "SGL_NATMO_ForgotPassword_03"></include> </methods> </class> -->
+
+			<!-- <class name="Tests.ServicesTestCase"> <methods> <include name = "SGL_NATMO_Services_08"></include> 
+				<include name = "SGL_NATMO_Services_09"></include> </methods> </class> -->
+
+			<!-- <class name="Tests.ThemesTestCase">
+				<methods>
+					<include name="SGL_NATMO_Themes_03"></include>
+				</methods>
+			</class> -->
+
+			<!-- <class name="Tests.RegistrationTestCase">
+				<methods>
+					<include name="SGL_NATMO_Registration_08"></include>
+				</methods>
+			</class> -->
+			
+			<!-- <class name="Tests.UserProfileTestCase">
+				<methods>
+					<include name="SGL_NATMO_UserProfile_05"></include>
+					<include name="SGL_NATMO_UserProfile_06"></include>
+				</methods>
+			</class> -->
+			
+			<class name="Tests.GeoPortalTestCase">
+				<methods>
+					<include name="SGL_NATMO_GeoPortal_10"></include>
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

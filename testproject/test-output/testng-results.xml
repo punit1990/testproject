@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7791" started-at="2020-09-24T14:15:12 IST" finished-at="2020-09-24T14:15:20 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7791" started-at="2020-09-24T14:15:12 IST" finished-at="2020-09-24T14:15:20 IST">
+      <class name="Samples.Sample">
+        <test-method status="PASS" signature="DriverProperty()[pri:0, instance:Samples.Sample@15d0c81b]" name="DriverProperty" is-config="true" duration-ms="5" started-at="2020-09-24T14:15:12 IST" finished-at="2020-09-24T14:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverProperty -->
+        <test-method status="PASS" signature="ExtentReportInitialize(org.testng.ITestContext)[pri:0, instance:Samples.Sample@15d0c81b]" name="ExtentReportInitialize" is-config="true" duration-ms="3209" started-at="2020-09-24T14:15:12 IST" finished-at="2020-09-24T14:15:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d96543c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportInitialize -->
+        <test-method status="PASS" signature="SGL_J_K_Contact_01()[pri:0, instance:Samples.Sample@15d0c81b]" name="SGL_J_K_Contact_01" duration-ms="4117" started-at="2020-09-24T14:15:15 IST" finished-at="2020-09-24T14:15:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SGL_J_K_Contact_01 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Samples.Sample@15d0c81b]" name="close" is-config="true" duration-ms="444" started-at="2020-09-24T14:15:19 IST" finished-at="2020-09-24T14:15:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Samples.Sample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
